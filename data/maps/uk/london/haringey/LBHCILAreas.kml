@@ -18,7 +18,7 @@
 	  <Icon><href>https://raw.githubusercontent.com/zawsx/szdstore/master/data/icons/maps/legends/test.png</href></Icon></IconStyle>
 	  <LabelStyle><scale>0</scale></LabelStyle><BalloonStyle><text><![CDATA[<h3>$[name]</h3>]]></text></BalloonStyle></Style>
     <Style id="icon-WestAREA-nodesc-highlight"><IconStyle><color>ffd18802</color>  <scale>1</scale>
-      <Icon>    <href>https://raw.githubusercontent.com/zawsx/szdstore/master/data/icons/maps/legends/test.png</href>  </Icon></IconStyle>
+      <Icon><href>https://raw.githubusercontent.com/zawsx/szdstore/master/data/icons/maps/legends/test.png</href>  </Icon></IconStyle>
 	  <LabelStyle>  <scale>1</scale></LabelStyle><BalloonStyle>  <text><![CDATA[<h3>$[name]</h3>]]></text></BalloonStyle></Style>
     <StyleMap id="icon-WestAREA-nodesc"><Pair>  <key>normal</key>  <styleUrl>#icon-WestAREA-nodesc-normal</styleUrl></Pair><Pair>  <key>highlight</key> 
 	  <styleUrl>#icon-WestAREA-nodesc-highlight</styleUrl></Pair></StyleMap>
