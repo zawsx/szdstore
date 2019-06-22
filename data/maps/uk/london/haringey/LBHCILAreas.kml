@@ -83,12 +83,12 @@
         <styleUrl>#icon-1603-0288D1-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1665-0288D1-nodesc-normal">
+    <Style id="icon-WestAREA-nodesc-normal">
       <IconStyle>
         <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>"https://raw.githubusercontent.com/zawsx/szdstore/master/data/icons/maps/legends/LBHCILArea West map legend icons.png"</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -98,7 +98,7 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1665-0288D1-nodesc-highlight">
+    <Style id="icon-WestAREA-nodesc-highlight">
       <IconStyle>
         <color>ffd18802</color>
         <scale>1</scale>
@@ -113,14 +113,14 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1665-0288D1-nodesc">
+    <StyleMap id="icon-WestAREA-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1665-0288D1-nodesc-normal</styleUrl>
+        <styleUrl>#icon-WestAREA-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1665-0288D1-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-WestAREA-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-0F9D58-4000-107-normal">
@@ -708,7 +708,7 @@
       </Placemark>
       <Placemark>
         <name>CIL AREA WEST</name>
-        <styleUrl>#icon-1665-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-WestAREA-nodesc</styleUrl>
         <Point>
           <coordinates>
             -0.1385462,51.5891937,0
