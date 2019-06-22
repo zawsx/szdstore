@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>LBH CIL Areas</name><description/>
-    <Style id="poly-0F9D58-4000-107-normal"><LineStyle>  <color>ff589d0f</color>  <width>4</width></LineStyle>
+    <Style id="CILCENTRAL-normal"><LineStyle>  <color>ff589d0f</color>  <width>4</width></LineStyle>
 	  <PolyStyle>  <color>6b589d0f</color>  <fill>1</fill>  <outline>1</outline></PolyStyle></Style>
-    <Style id="poly-0F9D58-4000-107-highlight"><LineStyle>  <color>ff589d0f</color>  <width>6</width></LineStyle>
+    <Style id="CILCENTRAL-highlight"><LineStyle>  <color>ff589d0f</color>  <width>6</width></LineStyle>
 	  <PolyStyle>  <color>6b589d0f</color>  <fill>1</fill>  <outline>1</outline></PolyStyle></Style>
-    <StyleMap id="poly-0F9D58-4000-107"><Pair>  <key>normal</key>  <styleUrl>#poly-0F9D58-4000-107-normal</styleUrl></Pair><Pair>  <key>highlight</key>  
-	  <styleUrl>#poly-0F9D58-4000-107-highlight</styleUrl></Pair></StyleMap>
-    <Style id="poly-3949AB-7101-77-nodesc-normal"><LineStyle>  <color>ffab4939</color>  <width>7.101</width></LineStyle>
+    <StyleMap id="CILCENTRAL"><Pair>  <key>normal</key>  <styleUrl>#CILCENTRAL-normal</styleUrl></Pair><Pair>  <key>highlight</key>  
+	  <styleUrl>#CILCENTRAL-highlight</styleUrl></Pair></StyleMap>
+    <Style id="CILEAST-normal"><LineStyle>  <color>ffab4939</color>  <width>7.101</width></LineStyle>
 	  <PolyStyle>  <color>4dab4939</color>  <fill>1</fill>  <outline>1</outline></PolyStyle><BalloonStyle>  <text><![CDATA[<h3>$[name]</h3>]]></text></BalloonStyle></Style>
-    <Style id="poly-3949AB-7101-77-nodesc-highlight"><LineStyle>  <color>ffab4939</color>  <width>10.6515</width></LineStyle>
+    <Style id="CILEAST-highlight"><LineStyle>  <color>ffab4939</color>  <width>10.6515</width></LineStyle>
 	  <PolyStyle>  <color>4dab4939</color>  <fill>1</fill>  <outline>1</outline></PolyStyle><BalloonStyle>  <text><![CDATA[<h3>$[name]</h3>]]></text></BalloonStyle></Style>
-    <StyleMap id="poly-3949AB-7101-77-nodesc"><Pair>  <key>normal</key>  <styleUrl>#poly-3949AB-7101-77-nodesc-normal</styleUrl></Pair><Pair>  <key>highlight</key>  <styleUrl>#poly-3949AB-7101-77-nodesc-highlight</styleUrl></Pair></StyleMap>
-    <Style id="poly-E65100-6101-77-normal"><LineStyle>  <color>ff0051e6</color>  <width>6.101</width></LineStyle>
+    <StyleMap id="CILEAST"><Pair>  <key>normal</key>  <styleUrl>#CILEAST-normal</styleUrl></Pair><Pair>  <key>highlight</key>  <styleUrl>#CILEAST-highlight</styleUrl></Pair></StyleMap>
+    <Style id="CILWEST-normal"><LineStyle>  <color>ff0051e6</color>  <width>6.101</width></LineStyle>
 	  <PolyStyle>  <color>4d0051e6</color>  <fill>1</fill>  <outline>1</outline></PolyStyle></Style>
-    <Style id="poly-E65100-6101-77-highlight"><LineStyle>  <color>ff0051e6</color>  <width>9.1515</width></LineStyle>
+    <Style id="CILWEST-highlight"><LineStyle>  <color>ff0051e6</color>  <width>9.1515</width></LineStyle>
 	  <PolyStyle>  <color>4d0051e6</color>  <fill>1</fill>  <outline>1</outline></PolyStyle></Style>
-    <StyleMap id="poly-E65100-6101-77"><Pair>  <key>normal</key>  <styleUrl>#poly-E65100-6101-77-normal</styleUrl></Pair><Pair>  <key>highlight</key>  
-	  <styleUrl>#poly-E65100-6101-77-highlight</styleUrl></Pair></StyleMap>
+    <StyleMap id="CILWEST"><Pair>  <key>normal</key>  <styleUrl>#CILWEST-normal</styleUrl></Pair><Pair>  <key>highlight</key>  
+	  <styleUrl>#CILWEST-highlight</styleUrl></Pair></StyleMap>
     <Folder><name>CIL AREA - Central</name><Placemark><name>CIL Area Central</name><description><![CDATA[description: description: <br>stroke: #606060<br>stroke-width: 4<br>stroke-opacity: 1<br>fill: #393939<br>fill-opacity: 0.5<br>stroke: #606060<br>stroke-width: 4<br>stroke-opacity: 1<br>fill: #393939<br>fill-opacity: 0.5]]></description>
-        <styleUrl>#poly-0F9D58-4000-107</styleUrl>
+        <styleUrl>#CILCENTRAL</styleUrl>
         <Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>
                 -0.138828,51.610184,0
                 -0.1337529,51.6070188,0
@@ -103,23 +103,10 @@
                 -0.136235,51.610845,0
                 -0.137072,51.610631,0
                 -0.138828,51.610184,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>CIL AREA - West</name>
-      <Placemark>
-        <name>CIL West Area</name>
-        <description><![CDATA[description: description: <br>stroke: <br>stroke-width: <br>stroke-opacity: <br>fill: <br>fill-opacity:<br>stroke: <br>stroke-width: <br>stroke-opacity: <br>fill: <br>fill-opacity: ]]></description>
-        <styleUrl>#poly-E65100-6101-77</styleUrl>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <tessellate>1</tessellate>
-              <coordinates>
+              </coordinates>            </LinearRing>          </outerBoundaryIs>        </Polygon>      </Placemark>    </Folder>
+    <Folder>      <name>CIL AREA - West</name>      <Placemark>        <name>CIL West Area</name>
+        <description><![CDATA[description: description: <br>stroke: <br>stroke-width: <br>stroke-opacity: <br>fill: <br>fill-opacity:<br>stroke: <br>stroke-width: <br>stroke-opacity: <br>fill: <br>fill-opacity: ]]></description>        <styleUrl>#CILWEST</styleUrl>
+        <Polygon>          <outerBoundaryIs>            <LinearRing>              <tessellate>1</tessellate>              <coordinates>
                 -0.138828,51.610184,0
                 -0.142823,51.609051,0
                 -0.143451,51.608846,0
@@ -304,22 +291,9 @@
                 -0.121319,51.598956,0
                 -0.123465,51.600662,0
                 -0.138828,51.610184,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>CIL AREA - East</name>
-      <Placemark>
-        <name>eastern CIL Area</name>
-        <styleUrl>#poly-3949AB-7101-77-nodesc</styleUrl>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <tessellate>1</tessellate>
-              <coordinates>
+              </coordinates>            </LinearRing>          </outerBoundaryIs>        </Polygon>      </Placemark>    </Folder>
+    <Folder>      <name>CIL AREA - East</name>      <Placemark>        <name>eastern CIL Area</name>        <styleUrl>#CILEAST</styleUrl>        <Polygon>
+          <outerBoundaryIs>            <LinearRing>              <tessellate>1</tessellate>              <coordinates>
                 -0.0991,51.608464,0
                 -0.097235,51.604965,0
                 -0.095637,51.604998,0
@@ -484,38 +458,5 @@
                 -0.097681,51.608924,0
                 -0.097486,51.608521,0
                 -0.0991,51.608464,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark>
-        <name>CIL AREA WEST</name>
-        <styleUrl>#icon-WestAREA-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -0.1385462,51.5891937,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>CIL AREA - Central</name>
-        <styleUrl>#icon-CentralAREA-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -0.1085054,51.5993245,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>CIL AREA East</name>
-        <styleUrl>#icon-EastAREA-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            -0.0733149,51.5949526,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-  </Document>
-</kml>
+              </coordinates>            </LinearRing>          </outerBoundaryIs>        </Polygon>      </Placemark>
+    </Folder>  </Document></kml>
