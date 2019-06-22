@@ -1,241 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document>
-    <name>LBH CIL Areas</name>
-    <description/>
-    <Style id="icon-1502-0288D1-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1502-0288D1-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1502-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1502-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1502-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1603-0288D1-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1603-0288D1-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1603-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1603-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1603-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-WestAREA-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>"https://raw.githubusercontent.com/zawsx/szdstore/master/data/icons/maps/legends/LBHCILArea West map legend icons.png"</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-WestAREA-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-WestAREA-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-WestAREA-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-WestAREA-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="poly-0F9D58-4000-107-normal">
-      <LineStyle>
-        <color>ff589d0f</color>
-        <width>4</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>6b589d0f</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-    </Style>
-    <Style id="poly-0F9D58-4000-107-highlight">
-      <LineStyle>
-        <color>ff589d0f</color>
-        <width>6</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>6b589d0f</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-    </Style>
-    <StyleMap id="poly-0F9D58-4000-107">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#poly-0F9D58-4000-107-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#poly-0F9D58-4000-107-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="poly-3949AB-7101-77-nodesc-normal">
-      <LineStyle>
-        <color>ffab4939</color>
-        <width>7.101</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4dab4939</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="poly-3949AB-7101-77-nodesc-highlight">
-      <LineStyle>
-        <color>ffab4939</color>
-        <width>10.6515</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4dab4939</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="poly-3949AB-7101-77-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#poly-3949AB-7101-77-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#poly-3949AB-7101-77-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="poly-E65100-6101-77-normal">
-      <LineStyle>
-        <color>ff0051e6</color>
-        <width>6.101</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d0051e6</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-    </Style>
-    <Style id="poly-E65100-6101-77-highlight">
-      <LineStyle>
-        <color>ff0051e6</color>
-        <width>9.1515</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d0051e6</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-    </Style>
-    <StyleMap id="poly-E65100-6101-77">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#poly-E65100-6101-77-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#poly-E65100-6101-77-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Folder>
-      <name>CIL AREA - Central</name>
-      <Placemark>
-        <name>CIL Area Central</name>
-        <description><![CDATA[description: description: <br>stroke: #606060<br>stroke-width: 4<br>stroke-opacity: 1<br>fill: #393939<br>fill-opacity: 0.5<br>stroke: #606060<br>stroke-width: 4<br>stroke-opacity: 1<br>fill: #393939<br>fill-opacity: 0.5]]></description>
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>LBH CIL Areas</name><description/>
+    <Style id="icon-EastAREA-nodesc-normal"><IconStyle><color>ffd18802</color><scale>1</scale>
+	  <Icon><href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[<h3>$[name]</h3>]]></text></BalloonStyle></Style>
+    <Style id="icon-EastAREA-nodesc-highlight"><IconStyle>  <color>ffd18802</color><scale>1</scale>
+	  <Icon><href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>1</scale></LabelStyle><BalloonStyle><text><![CDATA[<h3>$[name]</h3>]]></text></BalloonStyle></Style>
+    <StyleMap id="icon-EastAREA-nodesc"><Pair><key>normal</key><styleUrl>#icon-EastAREA-nodesc-normal</styleUrl></Pair><Pair><key>highlight</key>
+	  <styleUrl>#icon-EastAREA-nodesc-highlight</styleUrl></Pair></StyleMap>
+    <Style id="icon-CentralAREA-nodesc-normal"><IconStyle><color>ffd18802</color><scale>1</scale>
+	  <Icon><href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle>
+	  <LabelStyle>  <scale>0</scale></LabelStyle><BalloonStyle><text><![CDATA[<h3>$[name]</h3>]]></text></BalloonStyle></Style>
+    <Style id="icon-CentralAREA-nodesc-highlight"><IconStyle><color>ffd18802</color><scale>1</scale>
+	  <Icon><href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle>
+	  <LabelStyle>  <scale>1</scale></LabelStyle><BalloonStyle><text><![CDATA[<h3>$[name]</h3>]]></text></BalloonStyle></Style>
+    <StyleMap id="icon-CentralAREA-nodesc"><Pair><key>normal</key><styleUrl>#icon-CentralAREA-nodesc-normal</styleUrl></Pair><Pair><key>highlight</key>
+      <styleUrl>#icon-CentralAREA-nodesc-highlight</styleUrl></Pair></StyleMap>
+    <Style id="icon-WestAREA-nodesc-normal"><IconStyle><color>ffd18802</color><scale>1</scale>
+	  <Icon><href>https://raw.githubusercontent.com/zawsx/szdstore/master/data/icons/maps/legends/test.png</href></Icon></IconStyle>
+	  <LabelStyle><scale>0</scale></LabelStyle><BalloonStyle><text><![CDATA[<h3>$[name]</h3>]]></text></BalloonStyle></Style>
+    <Style id="icon-WestAREA-nodesc-highlight"><IconStyle><color>ffd18802</color>  <scale>1</scale>
+      <Icon>    <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>  </Icon></IconStyle>
+	  <LabelStyle>  <scale>1</scale></LabelStyle><BalloonStyle>  <text><![CDATA[<h3>$[name]</h3>]]></text></BalloonStyle></Style>
+    <StyleMap id="icon-WestAREA-nodesc"><Pair>  <key>normal</key>  <styleUrl>#icon-WestAREA-nodesc-normal</styleUrl></Pair><Pair>  <key>highlight</key> 
+	  <styleUrl>#icon-WestAREA-nodesc-highlight</styleUrl></Pair></StyleMap>
+    <Style id="poly-0F9D58-4000-107-normal"><LineStyle>  <color>ff589d0f</color>  <width>4</width></LineStyle>
+	  <PolyStyle>  <color>6b589d0f</color>  <fill>1</fill>  <outline>1</outline></PolyStyle></Style>
+    <Style id="poly-0F9D58-4000-107-highlight"><LineStyle>  <color>ff589d0f</color>  <width>6</width></LineStyle>
+	  <PolyStyle>  <color>6b589d0f</color>  <fill>1</fill>  <outline>1</outline></PolyStyle></Style>
+    <StyleMap id="poly-0F9D58-4000-107"><Pair>  <key>normal</key>  <styleUrl>#poly-0F9D58-4000-107-normal</styleUrl></Pair><Pair>  <key>highlight</key>  
+	  <styleUrl>#poly-0F9D58-4000-107-highlight</styleUrl></Pair></StyleMap>
+    <Style id="poly-3949AB-7101-77-nodesc-normal"><LineStyle>  <color>ffab4939</color>  <width>7.101</width></LineStyle>
+	  <PolyStyle>  <color>4dab4939</color>  <fill>1</fill>  <outline>1</outline></PolyStyle><BalloonStyle>  <text><![CDATA[<h3>$[name]</h3>]]></text></BalloonStyle></Style>
+    <Style id="poly-3949AB-7101-77-nodesc-highlight"><LineStyle>  <color>ffab4939</color>  <width>10.6515</width></LineStyle>
+	  <PolyStyle>  <color>4dab4939</color>  <fill>1</fill>  <outline>1</outline></PolyStyle><BalloonStyle>  <text><![CDATA[<h3>$[name]</h3>]]></text></BalloonStyle></Style>
+    <StyleMap id="poly-3949AB-7101-77-nodesc"><Pair>  <key>normal</key>  <styleUrl>#poly-3949AB-7101-77-nodesc-normal</styleUrl></Pair><Pair>  <key>highlight</key>  <styleUrl>#poly-3949AB-7101-77-nodesc-highlight</styleUrl></Pair></StyleMap>
+    <Style id="poly-E65100-6101-77-normal"><LineStyle>  <color>ff0051e6</color>  <width>6.101</width></LineStyle>
+	  <PolyStyle>  <color>4d0051e6</color>  <fill>1</fill>  <outline>1</outline></PolyStyle></Style>
+    <Style id="poly-E65100-6101-77-highlight"><LineStyle>  <color>ff0051e6</color>  <width>9.1515</width></LineStyle>
+	  <PolyStyle>  <color>4d0051e6</color>  <fill>1</fill>  <outline>1</outline></PolyStyle></Style>
+    <StyleMap id="poly-E65100-6101-77"><Pair>  <key>normal</key>  <styleUrl>#poly-E65100-6101-77-normal</styleUrl></Pair><Pair>  <key>highlight</key>  
+	  <styleUrl>#poly-E65100-6101-77-highlight</styleUrl></Pair></StyleMap>
+    <Folder><name>CIL AREA - Central</name><Placemark><name>CIL Area Central</name><description><![CDATA[description: description: <br>stroke: #606060<br>stroke-width: 4<br>stroke-opacity: 1<br>fill: #393939<br>fill-opacity: 0.5<br>stroke: #606060<br>stroke-width: 4<br>stroke-opacity: 1<br>fill: #393939<br>fill-opacity: 0.5]]></description>
         <styleUrl>#poly-0F9D58-4000-107</styleUrl>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <tessellate>1</tessellate>
-              <coordinates>
+        <Polygon><outerBoundaryIs><LinearRing><tessellate>1</tessellate><coordinates>
                 -0.138828,51.610184,0
                 -0.1337529,51.6070188,0
                 -0.1311942,51.6054548,0
@@ -717,7 +523,7 @@
       </Placemark>
       <Placemark>
         <name>CIL AREA - Central</name>
-        <styleUrl>#icon-1603-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-CentralAREA-nodesc</styleUrl>
         <Point>
           <coordinates>
             -0.1085054,51.5993245,0
@@ -726,7 +532,7 @@
       </Placemark>
       <Placemark>
         <name>CIL AREA East</name>
-        <styleUrl>#icon-1502-0288D1-nodesc</styleUrl>
+        <styleUrl>#icon-EastAREA-nodesc</styleUrl>
         <Point>
           <coordinates>
             -0.0733149,51.5949526,0
